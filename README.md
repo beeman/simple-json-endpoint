@@ -1,8 +1,10 @@
+# simple-json-endpoint
+
 ```
-npm install
-npm run dev
+pnpm i
+pnpm dev
 ```
 
 ```
-npm run deploy
+pnpm run deploy
 ```
