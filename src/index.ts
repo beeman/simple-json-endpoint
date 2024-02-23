@@ -1,13 +1,10 @@
 import {Hono} from 'hono'
+import {wallets} from "./source";
 
 const app = new Hono()
 
 app.get('/', (c) => {
-  return c.json([
-    { 'key1': 'value1'},
-    { 'key2': 'value2'},
-    { 'key3': 'value3'}
-  ])
+  return c.json(wallets)
 })
 
 export default app
